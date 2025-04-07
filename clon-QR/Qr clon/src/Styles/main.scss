@@ -1,0 +1,56 @@
+@use "variables" as v;
+
+
+body{
+    font-family: v.$text-preset-font;
+    background-color: v.$color-slate-300;
+}
+
+img {
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: v.$white-color;
+    padding: v.$spacing-200;
+    width: 320px;
+    height: 499px;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+
+section {
+    width: 288px;
+    max-width: 100%;
+    text-align: center;
+    h1 {
+        font-size: v.$text-preset1-size;
+        font-weight: v.$text-preset1-weight;
+        line-height: v.$text-preset1-height;
+        letter-spacing: v.$text-preset1-spacing;
+    }
+    p {
+        font-size: v.$text-preset2-size;
+        font-weight: v.$text-preset2-weight;
+        line-height: v.$text-preset2-height;
+        letter-spacing: v.$text-preset2-spacing;
+    }
+
+}
+
+section,p, h1 {
+    background-color: v.$white-color;
+}
+
